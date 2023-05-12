@@ -1,12 +1,12 @@
 import { useState } from "react"
 
-// import Hajj from "../assets/Hajj.png"
-// import Tour from "../assets/Tour.png"
-// import Hotel from "../assets/Hotel.png"
-// import Plane from "../assets/Plane.png"
-// import Train from "../assets/Train.png"
-// import Bus from "../assets/Bus.png"
-// import Visa from "../assets/Visa.png"
+import Hajj from "../assets/Hajj.png"
+import Tour from "../assets/Tour.png"
+import Hotel from "../assets/Hotel.png"
+import Plane from "../assets/Plane.png"
+import Train from "../assets/Train.png"
+import Bus from "../assets/Bus.png"
+import Visa from "../assets/Visa.png"
 
 export const FlightBooking = () => {
 	const [section, setSection] = useState('haji')
@@ -30,7 +30,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('haji')}
 					>
 						<span className="flex items-center">
-							{/* <img src={Hajj} className="mr-2 align-middle	" /> */}
+							<img src={Hajj} className="mr-2 align-middle	" />
 							Haji & Ummah
 						</span>
 
@@ -40,7 +40,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('flight')}
 					>
 						<span className="flex items-center ">
-							{/* <img src={Plane} className="mr-2 align-middle	" /> */}
+							<img src={Plane} className="mr-2 align-middle	" />
 
 							Flight
 						</span>
@@ -50,7 +50,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('hotel')}
 					>
 						<span className="flex items-center">
-							{/* <img src={Hotel} className="mr-2 align-middle	" /> */}
+							<img src={Hotel} className="mr-2 align-middle	" />
 
 							Hotel
 						</span>
@@ -61,7 +61,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('visa')}
 					>
 						<span className="flex items-center">
-							{/* <img src={Visa} className="mr-2 align-middle	" /> */}
+							<img src={Visa} className="mr-2 align-middle	" />
 
 							Visa
 						</span>
@@ -72,7 +72,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('tours')}
 					>
 						<span className="flex items-center">
-							{/* <img src={Tour} className="mr-2 align-middle	" /> */}
+							<img src={Tour} className="mr-2 align-middle	" />
 							Tours
 						</span>
 
@@ -82,7 +82,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('busses')}
 					>
 						<span className="flex items-center ">
-							{/* <img src={Bus} className="mr-2 align-middle	" /> */}
+							<img src={Bus} className="mr-2 align-middle	" />
 
 							Buses
 						</span>
@@ -93,7 +93,7 @@ export const FlightBooking = () => {
 						onClick={() => handleSectionChange('trains')}
 					>
 						<span className="flex items-center ">
-							{/* <img src={Train} className="mr-2 align-middle	" /> */}
+							<img src={Train} className="mr-2 align-middle	" />
 							Trains
 						</span>
 
