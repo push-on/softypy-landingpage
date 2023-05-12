@@ -5,8 +5,8 @@ import { InfoCards } from "./components/InfoCards"
 import { Offer } from "./components/Offer"
 import { Mission } from "./components/Mission"
 import { Footer } from "./components/Footer"
-import { PriceCards } from "./components/PriceCards"
 import { Testimonial } from "./components/Testimonial"
+import { Trending } from "./components/Trending"
 
 export const App = () => {
   return (
@@ -16,8 +16,8 @@ export const App = () => {
       <Navbar />
       <Hero />
       <InfoCards />
-      <PriceCards />
       <Offer />
+      <Trending />
       <Mission />
       <Testimonial/>
       <Footer />
