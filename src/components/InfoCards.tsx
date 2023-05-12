@@ -44,7 +44,7 @@ export const InfoCards = () => {
 		<div className=' pt-10 mt-10 px-10'>
 
 			<h1 className='text-4xl font-bold text-center mb-10'>Best Places To Visit In Bangladesh</h1>
-			<div className="flex flex-row space-x-4 overflow-x-scroll">
+			<div className="flex flex-row justify-center space-x-4 overflow-x-scroll">
 				{images.map((image, index) => (
 					<div className='rounded-lg shadow-lg'>
 						<img src={image.src} key={index} alt="" className='object-cover object-center h-52 w-64 rounded-t-lg' />
@@ -54,7 +54,6 @@ export const InfoCards = () => {
 						</div>
 					</div>
 				))}
-
 			</div>
 		</div>
 	)
